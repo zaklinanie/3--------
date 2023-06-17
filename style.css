@@ -1,0 +1,167 @@
+
+body {
+    width: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    margin: 0;
+    padding: 0;
+    line-height: 100%;
+}
+
+img {
+    outline: none;
+    text-decoration: none;
+    border: none;
+    -ms-interpolation-mode: bicubic;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+table td {
+    border-collapse: collapse;
+}
+
+table {
+    border-collapse: collapse;
+
+}
+
+.header-td {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border: 1px dotted;
+    border: medium dashed rgb(0, 0, 0);
+}
+
+.main-td {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.main-td td{
+    vertical-align: top;
+}
+
+.main-td p {
+    color: #524d4d;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.28px;
+}
+
+.bottom-td {
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+.block-td p {
+    color: #535151;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.28px;
+}
+
+.blockk-td {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.28px;
+    width:50%;
+}
+
+.footer-td {
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+
+@media (max-width: 820px) {
+    .table-800 {
+        width: 600px !important;
+    }
+
+    .main-td p {
+    font-size: 18px;
+}
+    .header-td{
+        height: 320px !important;
+    }
+
+    .table-700 {
+        width: 550px !important;
+    }
+
+    .block-table {
+        width: 550px !important;
+    }
+
+
+}
+
+@media (max-width: 620px) {
+    .table-800 {
+        width: 400px !important;
+    }
+
+    .header-td{
+        height: 220px !important;
+    }
+
+    .table-700 {
+        width: 320px !important;
+    }
+
+    .main-td p {
+    font-size: 14px;
+}
+    .block-td {
+        display: block !important;
+        margin-bottom: 20px !important;
+        padding: 0 !important;
+    }
+
+    .block-table {
+        width: 320px !important;
+        display: block !important;
+        margin: 0 auto !important;
+    }
+
+    .menu {
+        display: block !important;
+        margin: 0 auto !important;
+    }
+}
+
+@media (max-width: 420px) {
+    .table-800 {
+        width: 300px !important;
+    }
+
+    .header-td{
+        height: 160px !important;
+    }
+
+    .main-td p {
+    font-size: 10px;
+}
+    .table-700 {
+        width: 260px !important;
+    }
+
+    .block-table {
+        width: 260px !important;
+    }
+
+    .bottom-td {
+        padding-top: 50px !important;
+        padding-bottom: 50px !important;
+    }
+    
+    .menu td {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+        
+}}
